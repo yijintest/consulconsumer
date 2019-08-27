@@ -1,0 +1,13 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: consulconsumer
+  cloud:
+    consul:
+      port: 8500 # consul 启动地址
+      host: 127.0.0.1 # consul 启动端口
+
+
+
